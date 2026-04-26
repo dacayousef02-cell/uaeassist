@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
       try {
         const parsed = JSON.parse(body);
         const payload = JSON.stringify({
-          model:"claude-haiku-4-5-20251001"",
+          model: "claude-haiku-4-5-20251001"",
           max_tokens: 1000,
           system: parsed.system,
           messages: parsed.messages,
